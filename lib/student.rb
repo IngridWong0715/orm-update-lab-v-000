@@ -48,9 +48,8 @@ class Student
   def self.find_by_name(name)
   end
 
-  def updateend
-
-
+  def update
+  end
 
 
 

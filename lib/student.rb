@@ -53,6 +53,8 @@ class Student
     sql = <<-SQL
      SELECT * FROM students WHERE name = ? LIMIT 1
      SQL
+     he = DB[:conn].execute(sql, name)
+     binding.pry
      info = DB[:conn].execute(sql, name).first
      self.new_from_db(info)
   end

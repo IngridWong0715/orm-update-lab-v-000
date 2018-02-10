@@ -42,7 +42,7 @@ class Student
   def create
   end
 
-  def self.new_from_db
+  def self.new_from_db(arr)
   end
 
 
